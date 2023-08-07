@@ -5,4 +5,28 @@ padding: 0
 
 body{
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1,h2,h3, p{
+    margin-bottom: 10px;
+}
+
+.contenedor_botones{
+    display: flex;
+    align-items: row;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.div_contenedor{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.boton1{
+    width: 100px;
 }
