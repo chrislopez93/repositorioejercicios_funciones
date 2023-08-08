@@ -57,4 +57,19 @@ h1,h2,h3, p{
 .imagen1{
     width: 200px;
 }
-    
+ 
+.parrafo_actividad2{
+    text-align: justify;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+.contenedor_parrafo_actividad2{
+    margin-top: 15px;
+    width: 70%;
+
+}
+
+.list_actividad2{
+    list-style:decimal;
+}

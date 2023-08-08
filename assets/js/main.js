@@ -4,6 +4,9 @@ function pintar(color){
 }
 
 function agregarBordes(elementId){
-    elemento = document.querySelector('#' + elementId);
+    let elemento = document.querySelector('#' + elementId);
     elemento.style.border = "solid 1px black";
 }
+
+
+

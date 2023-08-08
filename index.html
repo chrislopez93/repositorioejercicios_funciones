@@ -15,34 +15,64 @@
 
 <body>
     <div class="body_contenedor">
-    <h1>Guía de ejericios de funciones</h1>
-    <div class="pintado div_contenedor">
-    <h2>Funciones y onclick: Pintando la página</h2>
-    <p>Ahora que sabemos crear funciones con parámetros podemos hacer cosas nuevas, como por
-        ejemplo, llamar una función al hacer clic en un botón.</p>
+        <h1>Guía de ejericios de funciones</h1>
+        <div class="pintado div_contenedor">
+            <h2>Funciones y onclick: Pintando la página</h2>
+            <p>Ahora que sabemos crear funciones con parámetros podemos hacer cosas nuevas, como por
+                ejemplo, llamar una función al hacer clic en un botón.</p>
 
-    <div class="contenedor_botones">
-        <button class="boton1" onclick="pintar('red')">Rojo</button>
-        <button class="boton1" onclick="pintar('bisque')">Bisque</button>
-        <button class="boton1" onclick="pintar('yellow')">Amarillo</button>
-    </div>
-    </div>
-    <div class="div_contenedor">
-        <h2>Agregando bordes</h2>
-        <p>Podemos realizar un ejercicio similar en el que tengamos varias imágenes las cuales queremos
-            que sean seleccionables de modo que al hacer click en ellas se les agregue un borde.</p>
-        <div class="imagen1_contenedor">
-            <figure>
-                <img class="imagen1" id="img-1" src="./assets/img/kirby.png" alt="Imagen" onclick="agregarBordes('img-1')">
-            </figure>
-            <figure>
-                <img class="imagen1" id="img-2" src="./assets/img/mario.png" alt="Imagen" onclick="agregarBordes('img-2')">
-            </figure>
-            <figure>
-                <img class="imagen1" id="img-3" src="./assets/img/zelda.png" alt="Imagen" onclick="agregarBordes('img-3')">
-            </figure>
+            <div class="contenedor_botones">
+                <button class="boton1" onclick="pintar('red')">Rojo</button>
+                <button class="boton1" onclick="pintar('bisque')">Bisque</button>
+                <button class="boton1" onclick="pintar('yellow')">Amarillo</button>
+            </div>
         </div>
-    </div>
+        <div class="div_contenedor">
+            <h2>Agregando bordes</h2>
+            <p>Podemos realizar un ejercicio similar en el que tengamos varias imágenes las cuales queremos
+                que sean seleccionables de modo que al hacer click en ellas se les agregue un borde.</p>
+            <div class="imagen1_contenedor">
+                <figure>
+                    <img class="imagen1" id="img-1" src="./assets/img/kirby.png" alt="Imagen"
+                        onclick="agregarBordes('img-1')">
+                </figure>
+                <figure>
+                    <img class="imagen1" id="img-2" src="./assets/img/mario.png" alt="Imagen"
+                        onclick="agregarBordes('img-2')">
+                </figure>
+                <figure>
+                    <img class="imagen1" id="img-3" src="./assets/img/zelda.png" alt="Imagen"
+                        onclick="agregarBordes('img-3')">
+                </figure>
+            </div>
+        </div>
+
+        <div class="div_contenedor">
+            <h2>Actividad 2: Creando una función con parámetros para
+                modificar el DOM</h2>
+            <p>Crear una página web con un párrafo que contenga el párrafo “Incremento de Font Size” y
+                agrega 3 botones, uno con el texto “aumentar en 1px”, otro “aumentar en 2px”, y otro con
+                “aumentar 10px”.</p>
+            <ul>
+                <li class="list_actividad2">Crea la función incrementar con el valor por defecto de 1.</li>
+                <li class="list_actividad2">Dentro de la función busca el elemento y modifica el contenido actualizando
+                    su
+                    cantidad.</li>
+                <li class="list_actividad2">Llama a la función con los argumentos correspondientes en cada botón.</li>
+            </ul>
+            <div class="contenedor_parrafo_actividad2">
+                <p class="parrafo_actividad2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ullam vitae fugiat, blanditiis quas, dignissimos cum quibusdam asperiores
+                    unde excepturi voluptas nobis quod dolores ipsa error eveniet, tenetur commodi
+                    magni nostrum.</p>
+            </div>
+            <h3>Incrementar font-size</h3>
+            <div class="contenedor_botones">
+                <button class="boton1" onclick="pintar('red')">5px</button>
+                <button class="boton1" onclick="pintar('bisque')">10px</button>
+                <button class="boton1" onclick="pintar('yellow')">15px</button>
+            </div>
+        </div>
     </div>
     <script src="./assets/js/main.js"></script>
 </body>
